@@ -2,9 +2,9 @@
 
 
 <% @orders.each do |order| %>
-  <p>Name: <%= order.name %></p>
-  <p>Address: <%= order.address %>  </p>
-  <p>Order: x <%= order.quantity %> of shoe size <%= order.size %></p>
-  <p>Total: <%= order.total %></p>
+  <p><b>Name:</b> <%= order.name %></p>
+  <p><b>Address:</b> <%= order.address %>  </p>
+  <p><b>Order:</b> x <%= order.quantity %> of shoe size <%= order.size %></p>
+  <p><b>Total:</b> <%= order.total %></p>
   <hr>
 <% end %>
